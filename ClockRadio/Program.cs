@@ -7,7 +7,7 @@ namespace ClockRadio
         public static void Main(string[] args)
         {
             ClockRadio clockRadio = new ClockRadio();
-            clockRadio.getCurrentTime();
+            clockRadio.ToggleClockRadioPower();
         }
     }
 }
