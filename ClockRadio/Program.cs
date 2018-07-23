@@ -6,7 +6,8 @@ namespace ClockRadio
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ClockRadio clockRadio = new ClockRadio();
+            clockRadio.getCurrentTime();
         }
     }
 }
